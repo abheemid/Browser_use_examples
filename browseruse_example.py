@@ -19,7 +19,7 @@ import nest_asyncio
 from langchain_google_genai import ChatGoogleGenerativeAI
 from browser_use import Agent, Browser, BrowserConfig
 # Set your API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBD54zdx2Pvr7ZTSZXokgz2nkOY4acvoHc"
+os.environ["GOOGLE_API_KEY"] = ""
 nest_asyncio.apply()
 async def run_browser_test():
     # 3. CONFIGURE BROWSER (The "Headless" Magic)
